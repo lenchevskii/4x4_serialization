@@ -1,13 +1,12 @@
 import csv
+import json
 import pickle
-from pickle import loads
-from json import dumps
 from xml.dom.minidom import parseString
 from dicttoxml import dicttoxml
 
 
 def to_json(dictionary):
-    return dumps(dictionary, indent=4, sort_keys=True)
+    return json.dumps(dictionary, indent=4, sort_keys=True)
 
 
 def to_xml(dictionary):
