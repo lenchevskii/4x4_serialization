@@ -1,4 +1,3 @@
-import csv
 import json
 import pickle
 from xml.dom.minidom import parseString
