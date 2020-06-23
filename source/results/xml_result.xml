@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<root>
+	<catalog type="dict">
+		<book type="list">
+			<item type="dict">
+				<key name="@id" type="str">bk101</key>
+				<author type="str">Gambardella, Matthew</author>
+				<title type="str">XML Developer's Guide</title>
+				<genre type="str">Computer</genre>
+				<price type="str">44.95</price>
+				<publish_date type="str">2000-10-01</publish_date>
+				<description type="str">An in-depth look at creating applications
+      with XML.</description>
+			</item>
+			<item type="dict">
+				<key name="@id" type="str">bk102</key>
+				<author type="str">Ralls, Kim</author>
+				<title type="str">Midnight Rain</title>
+				<genre type="str">Fantasy</genre>
+				<price type="str">5.95</price>
+				<publish_date type="str">2000-12-16</publish_date>
+				<description type="str">A former architect battles corporate zombies,
+      an evil sorceress, and her own childhood to become queen
+      of the world.</description>
+			</item>
+		</book>
+	</catalog>
+</root>
